@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+
+*{
+    margin: 0;
+    text-align: center;
+}
+#navbar{
+    background-color: aquamarine;
+    height: 20vh;
+}
+.logo{
+    font-size: 48px;
+    color: rgb(204, 45, 45);
+    font-family: 'Calligraffitti', cursive;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.hero{
+    background-color: rgb(194, 39, 39);
+    min-height:calc(100vh - 20vh);
+    font-size: 2rem;
+    color: azure;
+}
+.btn{
+    background-color: aquamarine;
+    color: brown;
+    height: 80px;
+    width: 250px;
+    border-style: outset;
+    border-radius: 8px;
+    border-color: brown;
+    border-width: 4px;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size:70px ;
+  
+}
+.btn:hover{
+    background-color: rgb(173, 255, 228);
+    color: rgb(215, 53, 53);
+    
+    border-style:solid;
+    border-radius: 8px;
+    border-color: brown;
+    
+  
+}
